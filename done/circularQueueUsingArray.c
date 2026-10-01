@@ -61,7 +61,7 @@ int main()
 int op, n;
 
 while(op!=5){
-printf("\n 1) push \n 2) pop \n 3) peek \n 4) traverse \n 5) exit \n choose an operation :");
+printf("\n 1) insert \n 2) delete \n 3) peek \n 4) display \n 5) exit \n choose an operation :");
 scanf("%d", &op);
 
 switch(op){
