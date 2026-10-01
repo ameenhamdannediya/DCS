@@ -18,9 +18,9 @@ void push( int value){
           printf("\n queue full");
       }else {
 
-          printf("%d c", rear);
+          //printf("%d c", rear);
           rear=(rear+1)%M;
-          printf("%d", rear);
+          //printf("%d", rear);
           array[rear]=value;
       }
 
@@ -32,7 +32,7 @@ int pop(){
         printf("\n queue empty");
         return 0 ;
     }else{
-        printf("%d a %d", array[front%M] , array[rear%M]);
+        //printf("%d a %d", array[front%M] , array[rear%M]);
         int x = array[front];
         array[front] = 0;
         front= (front+1)%M;
